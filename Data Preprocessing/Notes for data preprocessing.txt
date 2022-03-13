@@ -27,4 +27,6 @@ Encoding categorical data
 
 1. we have to apply feature scaling always after splitting dataset into training and test set
 2. if we apply means and std deviation before splitting, so it will give training to test data too which should not be the case as test data should be new.
-3. 
+
+Feature Scaling
+1. most imp part is standardization and normalization
