@@ -1,0 +1,30 @@
+NOTES
+1. in every ml model that we train, for that in data set we will be always 
+having features and dependent variable
+2. dependent variable will always be the prediction part- jo find karna ha- like company mein sales hoga ya nahi
+that depends on some factor and that factor is dependent variable
+3. features are also called independent variable-with which you can predict what can be the outcome of the future.
+4. mostly in dataset- 1st few columns will be features and last columns will be dependent variable
+5. iloc will help to locate the index of the rows and columns.
+6. : this means range- left of semi column is lower bound and right will be upper bound.
+7. -1 in the index of python means the last column
+8. index in oython includes the lower bound but excludes the upper bound
+
+Missing data points
+1. must handle missing data
+2. ignore by deleting the data if set is large
+3. replace the missing value by its average of all the values of a particular column
+
+1. Scikit-learn (Sklearn) is the most useful and robust library for machine learning in Python. It provides a selection of efficient tools for machine 
+learning and statistical modeling including classification, regression, clustering and dimensionality reduction via a consistence interface in Python.
+2. SimpleImputer is a scikit-learn class which is helpful in handling the missing data in the predictive model dataset.
+3. It replaces the NaN values with a specified placeholder. It is implemented by the use of the SimpleImputer.
+4. The nan stands for “not a number“, and its primary constant is to act as a placeholder for any missing numerical values in the array.
+
+Encoding categorical data
+1. dividing into categories and giving them diff classes
+2. eg- apple will have vector [1,0,0] banana will have [0,1,0] and cashew will have [0,0,1]
+
+1. we have to apply feature scaling always after splitting dataset into training and test set
+2. if we apply means and std deviation before splitting, so it will give training to test data too which should not be the case as test data should be new.
+3. 
