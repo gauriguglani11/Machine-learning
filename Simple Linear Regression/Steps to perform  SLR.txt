@@ -1,0 +1,8 @@
+STEPS IN DATA PREPROCESSING
+1. IMPORTING THE LIBRARIES
+2. IMPORTING THE DATASET
+3. SPLITTING THE DATA INTO TRAINING AND TEST SET
+4. Training the simple Linear Regression Model on the Training set
+5. Predicting the Test Results
+6. Visualising the Train Results
+7. Visualising Test results
