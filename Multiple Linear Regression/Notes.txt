@@ -1,0 +1,8 @@
+1. In multiple linear regression, we have more independent variables.
+2. we need to check correlations between independent variables.
+3. whenever we havea categorical data for independent variable, we will always use a dummy variable.
+4. dummy variables works as switches if 1 it means on and if 0 it means off.
+5. we will always exclude one dummy variable like, if 3 then we only consider 2, if 5 then 4.
+6. while building model always omit one dummy variable.
+7. In MLR, the dependent variable y will always be in the form of continous value but
+the independent variables may or may not be continous as it can also have categorical value. 
