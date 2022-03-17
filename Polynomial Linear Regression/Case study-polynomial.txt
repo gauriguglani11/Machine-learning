@@ -1,0 +1,3 @@
+case Study-
+Polynomial regression model to predict the previous salary of the candidate, 
+so that he cannot bluff to his new company about the salary
