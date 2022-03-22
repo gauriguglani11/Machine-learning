@@ -1,0 +1,12 @@
+1. svm helps in solving both regresison and classification problem
+2. it creates two hyperplane- one near positive and one near negative
+3. we caan also create mutilple hyperplanes
+4. using hyperplane to divide the points and create more generalized model
+5. In 2d we call it as a staright line and in 3d plane it is called as hyperplane
+6. The distance between the line and the closest data points is referred to as the margin. 
+The best or optimal line that can separate the two classes is the line that as the largest margin.
+7. In the linearly separable case, SVM is trying to find the hyperplane that maximizes the margin, 
+with the condition that both classes are classified correctly. But in reality, datasets are probably 
+never linearly separable, so the condition of 100% correctly classified by a hyperplane will never be met.
+8. If the data are not linearly separable, a linear classification cannot perfectly distinguish the two classes. 
+In many datasets that are not linearly separable, a linear classifier will still be “good enough” and classify most instances correctly.
